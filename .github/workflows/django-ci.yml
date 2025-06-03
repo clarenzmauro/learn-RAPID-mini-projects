@@ -23,7 +23,7 @@ jobs:
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
-      # Step 3: (Optional) Login to a Docker registry
+      # Step 3: Login to a Docker registry
       # If you plan to push your image to Docker Hub, GitHub Container Registry, or another registry,
       # you'll need to log in. Replace with your registry details and store credentials securely using GitHub secrets.
       - name: Login to Docker Hub
@@ -32,15 +32,14 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # Step 4: Build the Docker image
-      # This step uses the Dockerfile in the root of your repository.
-      # Replace 'your-docker-image-name' with the desired name for your image.
-      # You can tag it with the GitHub SHA for versioning.
-      - name: Build Docker image
-        run: docker build ./Day7-Github-Actions-and-Docker/bsu_redacted_module \
-            --file ./Day7-Github-Actions-and-Docker/bsu_redacted_module/Dockerfile \
-            --tag clarenzmauro/bsu-redacted-module:${{ github.sha }} \
-            --push
+      # Step 4: Build and push Docker image using docker/build-push-action
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5 # Using a recent stable version
+        with:
+          context: ./Day7-Github-Actions-and-Docker/bsu_redacted_module
+          file: ./Day7-Github-Actions-and-Docker/bsu_redacted_module/Dockerfile
+          push: true
+          tags: clarenzmauro/bsu-redacted-module:${{ github.sha }}
 
       # Step 5: (Optional) Push the Docker image to the registry
       # This step pushes the built image. It only runs if the login step (if used) was successful.
