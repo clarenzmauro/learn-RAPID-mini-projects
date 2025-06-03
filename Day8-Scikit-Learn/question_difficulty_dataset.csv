@@ -1,0 +1,101 @@
+question_text,difficulty_level
+"What is 2 + 2?",1
+"Define a variable in Python.",1
+"List three primary colors.",1
+"What is the capital of France?",1
+"Spell the word 'apple'.",1
+"Name a shape with 3 sides.",1
+"What sound does a cat make?",1
+"How many days are in a week?",1
+"What is H2O commonly known as?",1
+"Identify the noun in 'The dog barked'.",1
+"Explain the water cycle in simple terms.",2
+"What are the main components of a computer?",2
+"Describe the process of photosynthesis.",2
+"How does a bill become a law in the USA?",2
+"Write a short paragraph about your favorite animal.",2
+"Summarize the plot of 'Romeo and Juliet'.",2
+"What is the difference between a planet and a star?",2
+"Explain the concept of supply and demand.",2
+"What were the major Allied powers in World War II?",2
+"Describe a simple food chain.",2
+"Analyze the causes of World War I.",3
+"Derive the quadratic formula from ax^2 + bx + c = 0.",3
+"Compare and contrast functional and object-oriented programming paradigms, giving examples.",3
+"Explain the theory of general relativity in detail.",3
+"Critically evaluate the impact of social media on modern society, citing specific examples.",3
+"Discuss the ethical implications of artificial intelligence in healthcare.",3
+"Develop a proof for Fermat's Last Theorem (just kidding, this is impossible for this context!).",3
+"Design a relational database schema for an online bookstore.",3
+"Explain the mechanisms of gene editing using CRISPR-Cas9.",3
+"Analyze the geopolitical factors contributing to current global conflicts.",3
+"What is the square root of 81?",1
+"Name two types of renewable energy.",1
+"What is the largest planet in our solar system?",2
+"Explain the importance of biodiversity.",2
+"Discuss the main themes in Shakespeare's 'Hamlet'.",3
+"How does an internal combustion engine work?",2
+"What are the three branches of the U.S. government?",2
+"Define 'algorithm'.",1
+"Explain the concept of 'inflation' in economics.",2
+"Describe the structure of a DNA molecule.",3
+"What is the chemical symbol for gold?",1
+"Convert 100 degrees Celsius to Fahrenheit.",2
+"Explain the significance of the Magna Carta.",3
+"What is a 'for loop' in programming?",1
+"Describe the symptoms and prevention of the common cold.",2
+"Analyze the character development of Elizabeth Bennet in 'Pride and Prejudice'.",3
+"What is the Pythagorean theorem?",1
+"Explain the difference between weather and climate.",2
+"Discuss the impact of the printing press on European history.",3
+"What are the primary colors of light vs. pigment?",2
+"What is the opposite of 'hot'?",1
+"How many continents are there?",1
+"Name a primary color.",1
+"What is the formula for the area of a rectangle?",1
+"Who wrote 'Hamlet'?",2
+"Explain the concept of 'gravity'.",2
+"What are the stages of a butterfly's life cycle?",2
+"Describe the main function of the human heart.",2
+"What is a 'prime number'?",1
+"List two safety rules for using the internet.",1
+"Discuss the advantages and disadvantages of renewable energy sources.",3
+"Explain the process of natural selection.",3
+"What is the significance of the French Revolution?",3
+"Describe the architecture of a modern CPU.",3
+"Analyze the use of symbolism in F. Scott Fitzgerald's 'The Great Gatsby'.",3
+"What is 5 multiplied by 7?",1
+"Name a famous scientist.",1
+"What is the main ingredient in bread?",1
+"Explain how a vaccine works in simple terms.",2
+"What is the difference between a 'while' loop and a 'for' loop in Python?",2
+"Compare the economic systems of capitalism and socialism.",3
+"What are the ethical considerations in genetic engineering?",3
+"Describe the quantum mechanical model of an atom.",3
+"How do you calculate the standard deviation of a dataset?",2
+"What is a 'sonnet' in poetry?",2
+"What is the capital of Australia?",1
+"Name a type of cloud.",1
+"Explain the concept of 'pH'.",2
+"What are the characteristics of a mammal?",2
+"Discuss the impact of climate change on polar ice caps.",3
+"What is the role of the United Nations?",2
+"Define 'photosynthesis'.",1
+"Explain the difference between an 'integer' and a 'float' in programming.",1
+"What is a 'metaphor'?",1
+"Describe the plot of a movie you recently watched.",2
+"Analyze the causes of the 2008 financial crisis.",3
+"What is the purpose of a firewall in network security?",2
+"Name three different musical instruments.",1
+"Explain the concept of 'democracy'.",2
+"What is the 'Big Bang Theory'?",3
+"What is the chemical symbol for water?",1
+"Describe a healthy diet.",2
+"What is 'artificial intelligence'?",2
+"Explain the importance of the ozone layer.",2
+"Discuss the themes in George Orwell's '1984'.",3
+"What is a 'verb'?",1
+"How does a GPS system work?",3
+"What is the capital of Egypt?",1
+"Explain the concept of 'inertia'.",2
+"What are the main differences between a virus and a bacteria?",2
